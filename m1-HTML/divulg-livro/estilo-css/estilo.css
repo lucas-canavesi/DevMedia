@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    box-sizing: border-box;
+  }
+
+body {
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+    border: 3px solid gray;
+    padding-bottom: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sobre {
+    text-align: center;
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    padding: 20px;
+}
+
+#sobreautor {
+    text-align: center;
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    padding: 20px;
+}
+
+#sobre2 {
+    text-align: center;
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.paragrafo{
+    text-align: center;
+    padding: 0 200px;
+    margin-bottom: 20px;
+}
+
+.link{
+    border: 3px solid green;
+    border-radius: 15px;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
