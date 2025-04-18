@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+div {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+p {
+    margin: 10px auto 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+span {
+    font-weight: bold;
+}
+
+.span-azul {
+    color: #1d80c1;
+}
+
+.span-amarelo {
+    color: #fff81b;
+}
+
+.secaotopo {
+    text-align: center;
+    background-color: #afddfb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.secaotopo img {
+    width: 150px;
+}
+
+.secaotopo p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.secaotopo p a {
+    font-size: 18px;
+    color:#1d1d1d;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+    margin: 0 5px;
+}
+.secao2 {
+    margin-top: 50px;
+    padding: 0;
+}
+.secao3 h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.secao3 h3 {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+}
+.secao3 img {
+    width: 450px;
+}
+
+.secao4 {
+    background-color: #1d80c1;
+    margin: 40px auto 0 auto;
+    padding-bottom: 40px;
+
+}
+
+.secao4 h1 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.secao4 p {
+    text-align: center;
+    width: 700px;
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+}
+
+
+ul {
+    text-align: left;
+    margin-left: 45%;
+    line-height: 42px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.secao5 h1 {
+    color: #1c81c1;
+    margin-bottom: 5px;
+}
+
+.secao5 img {
+    width: 450px;
+}
+
+.secao6 {
+    background-color: #1c81c1;
+
+}
+
+.secao6 h2 {
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.secao6 p {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contato {
+    width: 210px;
+    margin: 40px auto 40px auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+.contato a {
+    background-color: #ffffff;
+    border: 2px solid blue;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    font-size: 15px; 
+}
