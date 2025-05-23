@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.topo {
+    margin: 0px 0;
+    background-color: #fff;
+}
+
+.conteudo-topo {
+    display: flex;
+    max-width: 1024px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.escrita-logo h1{
+    font-size: 36px;
+    color: #000000;
+}
+
+.escrita-logo p {
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.link-topo {
+    background-color: #fff;
+    color: #fff;
+}
+
+.link-topo a {
+    color: #233032;
+    text-decoration: none;
+    font-size: 18px; 
+    margin: 0 5px;
+}
+
+.banner {
+    padding: 50px 0px;
+    background-color: #2f86d6;
+    display: flex;
+}
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.conteudo-banner p {
+    font-size: 16px;
+    color: #fff;
+    align-items: center;
+}
+
+.conteudo-banner h2 {
+    font-size: 28px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.descricao-serviço {
+    max-width: 470px;
+}
+
+.imagem-banner {
+    width: 50%;
+    
+}
+
+.anuncio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233032;
+}
+
+.descricao-anuncio {
+    margin: 35px auto;
+}
+
+.anuncio a {
+    margin: 35px auto;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #2f86d6;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.descricao-anuncio h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.descricao-anuncio p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.secao-informacoes {
+   padding-top: 50px;
+   background-color: #fff;
+}
+
+.secao-informacoes .info-h2 {
+   text-align: center;
+   font-size: 36px;
+}
+
+.secao-informacoes .imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.secao-informacoes .imagens img {
+    width: 100px;
+}
+
+.secao-informacoes .imagens h2 {
+    font-size: 18px;
+    color: #000000;
+}
+
+.secao-informacoes .imagens p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.tabela-precos {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.tabela-informacao {
+    max-width: 1024px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(47,134,214,1), -10px -10px 10px rgba(47,134,214,1);
+    background: #fff;
+    margin: 10px;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.tabela-informacao img {
+    width: 100px;
+}
+
+.tabela-informacao h2 {
+    text-align: center;
+}
+
+.tabela-home table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Cabeçalho */
+.tabela-home th {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.tabela-home th h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tabela-home th p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Corpo da tabela - Linhas zebradas */
+.tabela-home tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+.tabela-home tbody tr:nth-child(even) {
+    background-color: #f5f5f7; /* Cinza esfumaçado */
+}
+
+/* Células */
+.tabela-home td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    color: #555;
+}
+
+/* Efeito hover nas linhas */
+.tabela-home tbody tr:hover {
+    background-color: #eef2ff !important;
+}
+
+.rodape {
+    background-color: #2c3e50; /* Cor de fundo escura */
+    color: #ecf0f1; /* Cor do texto claro */
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.rodape > p:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rodape img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.rodape h1 {
+    color: #3498db; /* Cor azul para o título */
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.rodape p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.rodape p:last-child {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #bdc3c7; /* Cor mais clara para o texto de desenvolvedor */
+}
+
+/* Efeitos de hover para links (se adicionar no futuro) */
+.rodape a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rodape a:hover {
+    color: #2980b9;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .rodape {
+        padding: 30px 15px;
+    }
+    
+    .rodape h1 {
+        font-size: 24px;
+    }
+    
+    .rodape p {
+        font-size: 13px;
+    }
+}

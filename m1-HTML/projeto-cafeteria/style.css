@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+nav {
+  background: #4d3b2a;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('./assets/parallax-imagem1.png') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  border-bottom: 3px solid white;
+}
+
+.intro, .oque-e, .gourmet, .contato, .horarios {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.intro h2, .oque-e h2, .gourmet h2, .contato h2, .horarios h2 {
+  color: #6b4f3b;
+  margin-bottom: 1rem;
+}
+
+.imagem-cafe, .imagem-cappuccino {
+  background: url('./assets/parallax-imagem2.jpg') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.imagem-cappuccino {
+  background: url('./assets/parallax-imagem3.jpg') center/cover no-repeat;
+}
+
+blockquote {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-left: 5px solid #fff;
+}
+
+.mapa iframe {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #2d2117;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.horarios ul {
+  list-style: none;
+  text-align: left;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.horarios li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #ccc;
+}
