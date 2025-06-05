@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+   width: 100%;
+   padding: 10px 0;
+}
+
+.conteudo-topo {
+    display: flex;
+    align-items: center;   
+    max-width: 1024px;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.link a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-image: url('../assets/img-fundo.jpg');    
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.conteudo-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #fff;
+    width: 450px;
+    height: 180px;
+    border-radius: 5px;
+    background: rgba(0, 164, 153, 0.7);
+}
+
+.conteudo-banner h2 {
+    font-size:40px
+}
+
+.conteudo-banner p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quartos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+
+.img-quartos {
+    display: flex;
+    width: 1024px;;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    border-bottom: 2px solid rgb(0, 164, 153);
+}
+
+.card img {
+    width: 300px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 24px;
+    color: gray;
+}
+
+.conteudo-quartos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.conteudo-quartos h2 {
+    font-size: 36px;
+    color: gray;
+}
+
+.conteudo-quartos p {
+    font-size: 16px;
+    color: gray;
+}
+
+.rota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+}
+
+.conteudo-rota h2{
+    margin: 25px;
+    font-size: 36px;
+    color: gray;
+}
+
+.conteudo-rota p {
+    font-size: 16px;
+    color: gray;
+}
+
+.informacoes {
+    width: 100%;
+    height:500px;
+}
+
+.info-conteudo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-conteudo h2 {
+    font-size: 36px;
+    margin: 20px;
+    color: gray;
+}
+
+.info-conteudo p {
+    font-size: 16px;
+    color: gray;
+
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    align-items: center;
+}
+
+.card2 img {
+    width: 150px;
+    height: 100px;
+}
+
+.card2 .piscina {
+    width: 150px;
+    height: 100px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+   
+}
+
+.conteudo-card1 h3 {
+    font-size: 16px;
+}
+
+.conteudo-card1 p {
+    font-size: 14px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: rgb(0, 164, 153);
+}
