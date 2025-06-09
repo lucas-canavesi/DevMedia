@@ -4,14 +4,127 @@
     box-sizing: border-box
 }
 
+.secao-perfil h1 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 600; /* Peso da fonte especificado */
+    font-size: 2.5rem; /* Ajuste o tamanho conforme necessário */
+}
+
+.secao-links a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; /* Regular */
+    /* Mantenha o restante do seu CSS */
+}
+
+.secao-links a:hover {
+    font-weight: 600; /* Semi-bold no hover */
+}
+
+
 .container1 {
+    position: relative;
     width: 100%;
-    height: 100vh;
-    background-image: url("../arquivos-necessarios-do-projeto\ \(download\)/");
+    height: 100vh; /* ou a altura que desejar */
+    overflow: hidden;
+}
+
+
+.container1 video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .secao-perfil img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    border: 3px solid transparent;
+    background: linear-gradient(to right, #ffdf00, #009c3b);
+    border-image-slice: 1;
+    z-index: 0;
+}
+
+.secao-perfil {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+}
+
+.secao-perfil span {
+    border-bottom: 3px solid transparent;
+    background: linear-gradient(to right, #ffdf00, #009c3b);
+    background-size: 100% 3px;  /*ocupa 100% da largura do texto e tem 3px de altura */
+    background-position: 0 100%; /*começa na etremidade esquerda e fica exatamente na parte inferior */
+    background-repeat: no-repeat; /*impede que se repita*/
+    padding-bottom: 0;
+}
+
+.secao-links {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 270px;
+}
+
+.secao-links a {
+    background-color: #0200006e;
+    width: 470px;
+    color: #fff;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative; /* Adicionado para posicionamento relativo */
+    padding-left: 40px; /* Espaço para o ícone */
+}
+
+.secao-links a::before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    margin: 0px 6px 0 0;
+    display: inline-block;
+    position: absolute; /* Posicionamento absoluto em relação ao link */
+    left: 15px; /* Distância da borda esquerda */
+    top: 5px;
+}
+
+.secao-links a:nth-child(1)::before {
+    background-image: url("../arquivos-necessarios/imagens-do-projeto/assets/youtube.png");
+}
+
+.secao-links a:nth-child(2)::before {
+    background-image: url("../arquivos-necessarios/imagens-do-projeto/assets/instagram.png");
+}
+
+.secao-links a:nth-child(3)::before {
+    background-image: url("../arquivos-necessarios/imagens-do-projeto/assets/twitter.png");
+}
+
+.secao-links a:nth-child(4)::before {
+    background-image: url("../arquivos-necessarios/imagens-do-projeto/assets/facebook.png");
+}
+
+.secao-links a:nth-child(5)::before {
+    background-image: url("../arquivos-necessarios/imagens-do-projeto/assets/twitch.png");
+}
+
+.secao-links a:hover {
+    background-color: #fff;
+    color: #000;
 }
