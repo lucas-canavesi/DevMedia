@@ -1,0 +1,253 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.links-topo {
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.links-topo a {
+    color: #fff;    
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.links-topo a:hover {
+    color: #000;
+}
+
+.conteudo-nav {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo1 {
+    width: 1024px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-fundo {
+    background-image: url('../Clinica/assets/recepcao.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo1 p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    text-align: center;
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    margin: 30px;
+}
+
+.sobre-lista {
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.conteudo-lista {
+    position: relative;
+    width: 100%;
+}
+
+.conteudo-lista h1 {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.conteudo-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-final {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.sobre-final p {
+    margin-top: 25px;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 1024px;
+}
+
+.conteudo-imagens img {
+    width: 300px;
+    margin: 0 0 10px 0px;
+}
+
+.link-horarios {
+    margin: 50px;
+    text-decoration: none;
+}
+
+.conteudo-imagens {
+    box-shadow: 
+    3px 3px 5px 5px #ccc,
+    -1px -1px 2px 1px #eee;
+    padding: 0 0 10px 0;
+}
+
+.link-horarios a {
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px ;
+    font-weight: bold;
+}
+
+.localizacao {
+    text-align: center;
+}
+
+.localizacao p {
+    margin: 20px;
+}
+
+.rodape {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-rodape {
+    text-align: center;
+}
+
+.conteudo-rodape p {
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+@media (max-width: 425px) {
+    nav{
+        height: 130px;
+    }
+
+    .conteudo-nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 15px;
+    }
+
+    .links-topo a {
+        font-size: 14px;
+    }
+
+    .imagem-fundo {
+        height: 200px;
+    }
+
+    .conteudo1 p {
+        font-size: 20px;
+    }
+
+   .sobre {
+        width: 100%;
+    }
+
+   .sobre h1 {
+        margin-bottom: 20px;
+    }
+   .sobre p {
+        line-height: 1.5;
+        margin: 0 15px 0 15px;
+    }
+
+    .sobre-lista {
+        flex-direction: column;
+        height: 550px;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .conteudo-lista {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 2.0;
+        width: 100%;
+    }
+
+    .conteudo-lista h1 {
+        font-size: 20px;
+        position: absolute;
+        left: 5px;    
+    }
+
+    .imagem-lista img {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .conteudo-final {
+        margin: 0px;
+    }
+
+    /* serve para ver qual container esta fora do limite
+    * {
+        outline: 1px solid red !important;
+    } */
+}
